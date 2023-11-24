@@ -1,0 +1,65 @@
+            /* implement font family  */
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+            /* Global Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'ubuntu';
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #DFAA5B;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+            /* Header */
+
+.img__header {
+    margin-left: 45vw;
+    margin-top: 5vh;
+}
+
+/* header nav {
+    margin-left: 15vw;
+    margin-top: 5vh;
+} */
+
+header nav a {
+    padding: 3vw;
+    color: #957554;
+}
+
+header nav a:hover {
+    color: black;
+}
