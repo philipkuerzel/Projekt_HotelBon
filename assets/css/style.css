@@ -64,15 +64,12 @@ a {
 
             /* Header */
 
-.img__header {
-    margin-left: 45vw;
-    margin-top: 5vh;
-}
-
-header nav {
-    margin-left: 25vw;
-    margin-top: 5vh;
-    padding-bottom: 7vh;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+    margin: 5vh;
 }
 
 header nav a {
@@ -152,7 +149,7 @@ header nav a:hover {
     padding-bottom: 10vh;
     border-radius: 10px;
     width: 45vw;
-    height: 60vh;
+    height: 50vh;
 }
 
 .standard__twin {
@@ -258,4 +255,5 @@ input {
 
 .button__subs {
     padding: 2.5vh 10vh;
+    text-align: center;
 }

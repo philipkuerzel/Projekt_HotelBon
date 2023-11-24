@@ -1,0 +1,41 @@
+
+            /* Styling for Iphone 13 */
+
+@media only screen and (max-width: 390px) {
+    html {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .button__explore {
+        padding: 2vh 10vh;
+    }
+
+    .icons img{
+        width:10vw;
+    }
+
+    .rooms__grid {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+
+    .img {
+        width: 100%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 6vh;
+    }
+
+    .grid {
+        gap: 1vh;
+    }
+}
